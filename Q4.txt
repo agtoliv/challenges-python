@@ -3,3 +3,21 @@
 Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?"
 
 Resposta:
+INÍCIO
+    PASSO 1: Ligar o primeiro interruptor
+    Aguardar um tempo suficiente para a lâmpada correspondente aquecer (ex: 10 minutos)
+
+    PASSO 2: Desligar o interruptor 1 e ligar o segundo
+
+    PASSO 3: Ir para a sala das lâmpadas
+
+    PASSO 4: analisar as lâmpadas
+    
+    A lâmpada que estiver acesa corresponde ao interruptor 2
+
+    Para cada lâmpada apagada na sala:
+        SE lâmpada apagada ESTÁ quente
+            Atribuir lâmpada quente ao Interruptor 1
+        SENÃO
+            Atribuir lâmpada fria ao Interruptor 3
+FIM

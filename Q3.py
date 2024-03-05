@@ -26,3 +26,8 @@ while count < 5:
     i += 2
 
 print("a) A sequência representa os números impares, e completando o próximo elemento, a sequência fica:",odd_numbers)
+
+#b)
+pair_numbers = []
+
+

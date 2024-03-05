@@ -5,18 +5,19 @@ IMPORTANTE:
 Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
 """
 
-def fibonacci(n):
-    sequence = []
+def is_in_fibonacci(testNumber):
+    if testNumber == 0:
+        return True  
     a, b = 0, 1
-    for _ in range(n):
-        sequence.append(a)  
+    while a < testNumber:
         a, b = b, a + b
-    return sequence 
+    return a == testNumber  
 
-testNumber = int(input())
+testNumber = int(input("Digite o número para ver se está na sequência de Fibonacci: "))
 
-if testNumber in fibonacci(n):
-    print("O número",n,"está na sequência de Fibonacci")
+if is_in_fibonacci(testNumber):
+    print("O número", testNumber, "está na sequência de Fibonacci")
 else:
-    print("O número",n,"não está na sequência de Fibonacci")
+    print("O número", testNumber, "não está na sequência de Fibonacci")
+
 

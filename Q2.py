@@ -6,10 +6,12 @@ Esse número pode ser informado através de qualquer entrada de sua preferência
 """
 
 def fibonacci(n):
+    sequence = []
     a, b = 0, 1
     for _ in range(n):
-        print(a, end=' ')
+        sequence.append(a)  
         a, b = b, a + b
+    return sequence 
 
 testNumber = int(input())
 

@@ -92,7 +92,7 @@ def fibonacci(n):
     return fib_sequence
 
 fib_sequence = fibonacci(7)
-print("e) Os números representam a sequencia de Fibonnaci, completando o próximo elemento, a sequência fica:",fib_sequence)
+print("e) Os números representam a sequencia de Fibonnacci, completando o próximo elemento, a sequência fica:",fib_sequence)
 
 #f)
 print("f) A sequencia representa os números que começam com a letra D, no português brasileiro, completando a sequência: [2, 10, 12, 16, 17, 18, 19, 200]")

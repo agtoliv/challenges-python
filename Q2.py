@@ -4,7 +4,6 @@
 IMPORTANTE:
 Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
 """
-n = 10
 
 def fibonacci(n):
     a, b = 0, 1
@@ -12,4 +11,10 @@ def fibonacci(n):
         print(a, end=' ')
         a, b = b, a + b
 
-fibonacci(n)
+testNumber = int(input())
+
+if testNumber in fibonacci(n):
+    print("O número",n,"está na sequência de Fibonacci")
+else:
+    print("O número",n,"não está na sequência de Fibonacci")
+

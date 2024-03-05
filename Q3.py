@@ -40,3 +40,7 @@ while countb < 5:
     ib += 2
 
 print("b) A sequência representa os números pares, e completando o próximo elemento, a sequência fica:",even_numbers)
+
+
+#c)
+square_numbers = []

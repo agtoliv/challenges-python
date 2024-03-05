@@ -4,7 +4,7 @@
 IMPORTANTE:
 Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
 """
-n=10
+n = 10
 
 def fibonacci(n):
     a, b = 0, 1
@@ -12,4 +12,4 @@ def fibonacci(n):
         print(a, end=' ')
         a, b = b, a + b
 
-print(fibonacci(n))
+fibonacci(n)

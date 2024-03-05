@@ -28,6 +28,15 @@ while count < 5:
 print("a) A sequência representa os números impares, e completando o próximo elemento, a sequência fica:",odd_numbers)
 
 #b)
-pair_numbers = []
+even_numbers = []
 
+ib = 2
+countb = 0
 
+while countb < 5:
+    if ib % 2 == 0:
+        even_numbers.append(ib)
+        countb += 1
+    ib += 2
+
+print("b) A sequência representa os números pares, e completando o próximo elemento, a sequência fica:",even_numbers)

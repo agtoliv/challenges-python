@@ -74,4 +74,12 @@ def fibonacci(n):
     elif n == 2:
         return [1, 1]
 
-fib_sequence = [1, 1]
+    fib_sequence = [1, 1]
+    for i in range(2, n):
+        next_term = fib_sequence[i-1] + fib_sequence[i-2]
+        fib_sequence.append(next_term)
+
+    return fib_sequence
+
+fib_sequence = fibonacci(7)
+print(fib_sequence)

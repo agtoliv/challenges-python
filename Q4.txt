@@ -3,6 +3,7 @@
 Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?"
 
 Resposta:
+
 INÍCIO
     PASSO 1: Ligar o primeiro interruptor
     Aguardar um tempo suficiente para a lâmpada correspondente aquecer (ex: 10 minutos)

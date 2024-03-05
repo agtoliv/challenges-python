@@ -54,11 +54,11 @@ while countc < 8:
     countc += 1
     ic += 1
 
-print("b) A sequência representa a sequencia dos numeros interios ao quadradp, e completando o próximo elemento, a sequência fica:",square_numbers)
+print("c) A sequência representa a sequencia dos numeros interios ao quadradp, e completando o próximo elemento, a sequência fica:",square_numbers)
 
 
 #d)
 even_square_numbers = []
 
-id = 2
-countd = 0
+for x in even_numbers:
+    even_square_numbers.append(x**2)

@@ -13,7 +13,14 @@ e) 1, 1, 2, 3, 5, 8, ____
 
 f) 2,10, 12, 16, 17, 18, 19, ____
 """
+#a)
+odd_numbers = []
 
-for i in range(4):
+i = 1
+count = 0
+
+while count < 4:
     if i % 2 != 0:
-        print(i)
+        odd_numbers.append(i)  
+        count += 1
+    i += 2

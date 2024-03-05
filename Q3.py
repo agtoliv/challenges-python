@@ -53,7 +53,7 @@ while countc < 8:
     countc += 1
     ic += 1
 
-print("c) A sequência representa a sequencia dos numeros interios ao quadrado, completando o próximo elemento:",square_numbers)
+print("c) A sequência representa os numeros interios ao quadrado, completando o próximo elemento:",square_numbers)
 
 
 #d)
@@ -73,7 +73,7 @@ even_square_numbers = []
 for x in even_numbers[:5]:
         even_square_numbers.append(x**2)
 
-print("d) A sequência representa a sequencia dos numeros pares ao quadrado, completando o próximo elemento:",even_square_numbers)
+print("d) A sequência representa os numeros pares ao quadrado, completando o próximo elemento:",even_square_numbers)
 
 #e)
 def fibonacci(n):

@@ -25,21 +25,20 @@ while count < 5:
         count += 1
     i += 2
 
-print("a) A sequência representa os números impares, e completando o próximo elemento, a sequência fica:",odd_numbers)
+print("a) A sequência representa os números ímpares, completando o próximo elemento, a sequência fica:",odd_numbers)
 
 #b)
-even_numbers = []
-
-ib = 2
+square_two = []
+ib = 1
 countb = 0
 
 while countb < 7:
-    if ib % 2 == 0:
-        even_numbers.append(ib)
-        countb += 1
-    ib += 2
+    two = 2**ib
+    square_two.append(two)
+    countb += 1
+    ib += 1
 
-print("b) A sequência representa os números pares, e completando o próximo elemento, a sequência fica:",even_numbers)
+print("b) A sequência representa os quadrados do número 2, completando o próximo elemento, a sequência fica:",square_two)
 
 
 #c)
@@ -54,16 +53,27 @@ while countc < 8:
     countc += 1
     ic += 1
 
-print("c) A sequência representa a sequencia dos numeros interios ao quadrado, e completando o próximo elemento, a sequência fica:",square_numbers)
+print("c) A sequência representa a sequencia dos numeros interios ao quadrado, completando o próximo elemento:",square_numbers)
 
 
 #d)
+even_numbers = []
+
+ib = 2
+countb = 0
+
+while countb < 7:
+    if ib % 2 == 0:
+        even_numbers.append(ib)
+        countb += 1
+    ib += 2
+
 even_square_numbers = []
 
 for x in even_numbers[:5]:
         even_square_numbers.append(x**2)
 
-print("d) A sequência representa a sequencia dos numeros pares ao quadrado, e completando o próximo elemento, a sequência fica:",even_square_numbers)
+print("d) A sequência representa a sequencia dos numeros pares ao quadrado, completando o próximo elemento:",even_square_numbers)
 
 #e)
 def fibonacci(n):
@@ -82,4 +92,7 @@ def fibonacci(n):
     return fib_sequence
 
 fib_sequence = fibonacci(7)
-print("e) Os números representam a sequencia de Fibonnaci, e completando o próximo elemento, a sequência fica:",fib_sequence)
+print("e) Os números representam a sequencia de Fibonnaci, completando o próximo elemento, a sequência fica:",fib_sequence)
+
+#f)
+print("f) A sequencia representa os números que começam com a letra D, no português brasileiro, completando a sequência: [2, 10, 12, 16, 17, 18, 19, 200]")

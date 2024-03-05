@@ -18,8 +18,6 @@ def inverter_string(s):
 
 s = input("Digite uma string para ser invertida: ")
 
-
 string_invertida = inverter_string(s)
-
 
 print("String invertida:", string_invertida)

@@ -60,5 +60,7 @@ print("c) A sequência representa a sequencia dos numeros interios ao quadradp, 
 #d)
 even_square_numbers = []
 
-for x in even_numbers:
-    even_square_numbers.append(x**2)
+for x in even_numbers[:5]:
+        even_square_numbers.append(x**2)
+
+print(even_square_numbers)

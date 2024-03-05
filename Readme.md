@@ -36,7 +36,7 @@ Python foi escolhido como a linguagem de programação para a solução dos desa
 
 **Descrição:** Descobrir a lógica por trás de várias sequências e completar os próximos elementos.
 
-**Tecnologia:** 
+**Tecnologia:** Pensamento lógico e python
 
 **Roadmap:**
 1. Analisar cada sequência fornecida.
@@ -47,7 +47,7 @@ Python foi escolhido como a linguagem de programação para a solução dos desa
 
 **Descrição:** Descobrir, com um número limitado de tentativas, qual interruptor controla qual lâmpada.
 
-**Tecnologia:** Lógica
+**Tecnologia:** Pensamento lógico
 
 **Roadmap:**
 1. Desenvolver uma estratégia para identificar os interruptores com o menor número de idas até a sala das lâmpadas.
@@ -57,7 +57,7 @@ Python foi escolhido como a linguagem de programação para a solução dos desa
 
 **Descrição:** Escrever um programa que inverta os caracteres de uma string sem utilizar funções prontas.
 
-**Tecnologia:** 
+**Tecnologia:** python
 
 **Roadmap:**
 1. Implementar a lógica para inverter os caracteres de uma string.

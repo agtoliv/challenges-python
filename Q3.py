@@ -33,7 +33,7 @@ even_numbers = []
 ib = 2
 countb = 0
 
-while countb < 5:
+while countb < 7:
     if ib % 2 == 0:
         even_numbers.append(ib)
         countb += 1
@@ -44,3 +44,13 @@ print("b) A sequência representa os números pares, e completando o próximo el
 
 #c)
 square_numbers = []
+
+ic = 0
+countc = 0
+
+while countc < 8:
+    square = ic**2
+    square_numbers.append(square)
+    countc += 1
+    ic += 1
+

@@ -19,8 +19,10 @@ odd_numbers = []
 i = 1
 count = 0
 
-while count < 4:
+while count < 5:
     if i % 2 != 0:
         odd_numbers.append(i)  
         count += 1
     i += 2
+
+print("a) A sequência representa os números impares, e completando o próximo elemento, a sequência fica:",odd_numbers)

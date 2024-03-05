@@ -82,4 +82,4 @@ def fibonacci(n):
     return fib_sequence
 
 fib_sequence = fibonacci(7)
-print(fib_sequence)
+print("e) Os números representam a sequencia de Fibonnaci, e completando o próximo elemento, a sequência fica:",fib_sequence)

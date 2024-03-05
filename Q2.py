@@ -11,13 +11,15 @@ def is_in_fibonacci(testNumber):
     a, b = 0, 1
     while a < testNumber:
         a, b = b, a + b
-    return a == testNumber  
+    return a == testNumber
 
 testNumber = int(input("Digite o número para ver se está na sequência de Fibonacci: "))
 
 if is_in_fibonacci(testNumber):
-    print("O número", testNumber, "está na sequência de Fibonacci")
+    print(f"O número {testNumber} está na sequência de Fibonacci")
 else:
-    print("O número", testNumber, "não está na sequência de Fibonacci")
+    print(f"O número {testNumber} não está na sequência de Fibonacci")
+
+
 
 

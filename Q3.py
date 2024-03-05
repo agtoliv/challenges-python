@@ -54,3 +54,4 @@ while countc < 8:
     countc += 1
     ic += 1
 
+print("b) A sequência representa a sequencia dos numeros interios ao quadradp, e completando o próximo elemento, a sequência fica:",square_numbers)

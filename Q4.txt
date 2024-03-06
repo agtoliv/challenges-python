@@ -3,22 +3,35 @@
 Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?"
 
 Resposta:
+Considerando as salas X, Y e Z
+e os interruptores 1, 2 e 3
+temos:
 
-INÍCIO
-    PASSO 1: Ligar o primeiro interruptor
-    Aguardar um tempo suficiente para a lâmpada correspondente aquecer (ex: 10 minutos)
+INICIO
+    Etapa 1: Preparação
+        1)Ligue o interruptor 1 (isso faz a lâmpada na sala correspondente, não sabemos ainda se X, Y, ou Z, aquecer).
+        2)Deixe o interruptor 1 ligado por alguns minutos, depois desligue-o e ligue imediatamente o interruptor 2.
 
-    PASSO 2: Desligar o interruptor 1 e ligar o segundo
+    Etapa 2: Primeira Visita à Sala das Lâmpadas
+        3)Entre na sala X (escolhida arbitrariamente para ser a primeira sala a ser verificada).
 
-    PASSO 3: Ir para a sala das lâmpadas
+    SE a lâmpada em X estiver acesa, ENTÃO
+        Anote que a lâmpada em X é controlada pelo interruptor 2.
+    SENAO SE a lâmpada em X estiver apagada e quente, ENTÃO
+        Anote que a lâmpada em X é controlada pelo interruptor 1.
+    SENAO
+        Anote que a lâmpada em X é controlada pelo interruptor 3.
 
-    PASSO 4: analisar as lâmpadas
-    
-    A lâmpada que estiver acesa corresponde ao interruptor 2
+    Etapa 3: Segunda Visita à Sala das Lâmpadas
+        4) Baseado na informação coletada na visita à sala X, escolha a próxima sala (Y ou Z) para a segunda visita.
 
-    Para cada lâmpada apagada na sala:
-        SE lâmpada apagada ESTÁ quente
-            Atribuir lâmpada quente ao Interruptor 1
-        SENÃO
-            Atribuir lâmpada fria ao Interruptor 3
+    SE você identificou a lâmpada do interruptor 2 na primeira visita (lâmpada acesa em X), ENTÃO
+        Visite a sala Y ou Z (a que não foi visitada ainda).
+    SE a lâmpada na sala visitada (Y ou Z) estiver quente (e apagada), ENTÃO
+        Anote que esta lâmpada é controlada pelo interruptor 1.
+        A lâmpada na sala restante (não visitada nesta etapa) é controlada pelo interruptor 3, por eliminação.
+
+    SENAO SE a lâmpada na sala visitada (Y ou Z) estiver fria (e apagada), ENTÃO
+        Anote que esta lâmpada é controlada pelo interruptor 3.
+        A lâmpada na sala restante, que não precisa mais ser visitada fisicamente nesta etapa, é controlada pelo interruptor 1, por eliminação.
 FIM
